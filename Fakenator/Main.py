@@ -5,11 +5,11 @@ contador = 0
 
 if frase == "S" or frase == "s":
     numberRandom = random.randint(0, 10)
-    print(numberRandom)
+    
 
     while contador < 3:
       number = int(input("Digite um numero de 0 a 10: "))
-      print(contador)
+      
 
       if number == numberRandom:
          print("Parabens!!, Voce acertou")
@@ -21,7 +21,7 @@ if frase == "S" or frase == "s":
          print("Tente novamente!!!")
 
       contador = contador + 1
-      print(contador)
+    
 
 elif frase == "N" or frase == "n":
     print("Que pena que não quis brincar, :( ")
